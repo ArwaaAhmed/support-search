@@ -1,0 +1,13 @@
+{
+  "query": "تصدير CSV",
+  "status": "matched",
+  "threshold": 0.18,
+  "matches": [
+    {
+      "source_id": "export-csv",
+      "title": "CSV export | تصدير البيانات",
+      "score": 0.442189,
+      "snippet": "لتصدير البيانات بصيغة CSV افتح التقارير ثم تصدير."
+    }
+  ]
+}

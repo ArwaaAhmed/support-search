@@ -1,0 +1,195 @@
+{
+  "dataset": "Author-written bilingual support fixture v1",
+  "evaluation_type": "small curated regression fixture; not an independent benchmark",
+  "k": 3,
+  "threshold": 0.18,
+  "answerable_queries": 14,
+  "unanswerable_queries": 4,
+  "recall_at_k": 1.0,
+  "mrr_at_k": 1.0,
+  "no_answer_accuracy": 1.0,
+  "queries": [
+    {
+      "id": "en-01",
+      "query": "forgot password reset email",
+      "relevant_ids": [
+        "account-password"
+      ],
+      "retrieved_ids": [
+        "account-password"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "en-02",
+      "query": "download company invoice tax details",
+      "relevant_ids": [
+        "billing-invoice"
+      ],
+      "retrieved_ids": [
+        "billing-invoice"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "en-03",
+      "query": "initial subscription refund request",
+      "relevant_ids": [
+        "billing-refund"
+      ],
+      "retrieved_ids": [
+        "billing-refund"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "en-04",
+      "query": "HTTP 429 exponential backoff",
+      "relevant_ids": [
+        "api-rate-limit"
+      ],
+      "retrieved_ids": [
+        "api-rate-limit"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "en-05",
+      "query": "export records CSV report",
+      "relevant_ids": [
+        "export-csv"
+      ],
+      "retrieved_ids": [
+        "export-csv"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "en-06",
+      "query": "invite workspace members viewer",
+      "relevant_ids": [
+        "workspace-invite"
+      ],
+      "retrieved_ids": [
+        "workspace-invite"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "en-07",
+      "query": "webhook signature repeated events",
+      "relevant_ids": [
+        "webhook-signature"
+      ],
+      "retrieved_ids": [
+        "webhook-signature"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "ar-01",
+      "query": "إِعادة كَلِمة المُرور",
+      "relevant_ids": [
+        "account-password"
+      ],
+      "retrieved_ids": [
+        "account-password"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "ar-02",
+      "query": "تحميل الفاتورة بيانات الشركة",
+      "relevant_ids": [
+        "billing-invoice"
+      ],
+      "retrieved_ids": [
+        "billing-invoice"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "ar-03",
+      "query": "تصدير البيانات التقارير CSV",
+      "relevant_ids": [
+        "export-csv"
+      ],
+      "retrieved_ids": [
+        "export-csv"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "ar-04",
+      "query": "دعوة أعضاء الفريق صلاحية المشاهدة",
+      "relevant_ids": [
+        "workspace-invite"
+      ],
+      "retrieved_ids": [
+        "workspace-invite"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "ar-05",
+      "query": "حذف الحساب إعدادات الخصوصية",
+      "relevant_ids": [
+        "account-deletion"
+      ],
+      "retrieved_ids": [
+        "account-deletion"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "multi-01",
+      "query": "upload PDF عشرة ميجابايت",
+      "relevant_ids": [
+        "upload-limits"
+      ],
+      "retrieved_ids": [
+        "upload-limits"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "multi-02",
+      "query": "حالة الخدمة outages",
+      "relevant_ids": [
+        "status-outage"
+      ],
+      "retrieved_ids": [
+        "status-outage"
+      ],
+      "status": "matched"
+    },
+    {
+      "id": "unknown-01",
+      "query": "quantum entanglement spectroscopy",
+      "relevant_ids": [],
+      "retrieved_ids": [],
+      "status": "no_answer"
+    },
+    {
+      "id": "unknown-02",
+      "query": "وصفة الكنافة بالمكسرات",
+      "relevant_ids": [],
+      "retrieved_ids": [],
+      "status": "no_answer"
+    },
+    {
+      "id": "unknown-03",
+      "query": "Mars helicopter rotor torque",
+      "relevant_ids": [],
+      "retrieved_ids": [],
+      "status": "no_answer"
+    },
+    {
+      "id": "unknown-04",
+      "query": "solar observatory spectroscopy",
+      "relevant_ids": [],
+      "retrieved_ids": [],
+      "status": "no_answer"
+    }
+  ]
+}
