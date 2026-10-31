@@ -1,0 +1,23 @@
+{
+  "provenance":"Hand-authored held-out query file, distinct from indexed documents. This small fixture supports regression testing, not population-level performance claims. No threshold was fitted on this file.",
+  "queries":[
+    {"id":"en-01","query":"forgot password reset email","relevant_ids":["account-password"]},
+    {"id":"en-02","query":"download company invoice tax details","relevant_ids":["billing-invoice"]},
+    {"id":"en-03","query":"initial subscription refund request","relevant_ids":["billing-refund"]},
+    {"id":"en-04","query":"HTTP 429 exponential backoff","relevant_ids":["api-rate-limit"]},
+    {"id":"en-05","query":"export records CSV report","relevant_ids":["export-csv"]},
+    {"id":"en-06","query":"invite workspace members viewer","relevant_ids":["workspace-invite"]},
+    {"id":"en-07","query":"webhook signature repeated events","relevant_ids":["webhook-signature"]},
+    {"id":"ar-01","query":"إِعادة كَلِمة المُرور","relevant_ids":["account-password"]},
+    {"id":"ar-02","query":"تحميل الفاتورة بيانات الشركة","relevant_ids":["billing-invoice"]},
+    {"id":"ar-03","query":"تصدير البيانات التقارير CSV","relevant_ids":["export-csv"]},
+    {"id":"ar-04","query":"دعوة أعضاء الفريق صلاحية المشاهدة","relevant_ids":["workspace-invite"]},
+    {"id":"ar-05","query":"حذف الحساب إعدادات الخصوصية","relevant_ids":["account-deletion"]},
+    {"id":"multi-01","query":"upload PDF عشرة ميجابايت","relevant_ids":["upload-limits"]},
+    {"id":"multi-02","query":"حالة الخدمة outages","relevant_ids":["status-outage"]},
+    {"id":"unknown-01","query":"quantum entanglement spectroscopy","relevant_ids":[]},
+    {"id":"unknown-02","query":"وصفة الكنافة بالمكسرات","relevant_ids":[]},
+    {"id":"unknown-03","query":"Mars helicopter rotor torque","relevant_ids":[]},
+    {"id":"unknown-04","query":"solar observatory spectroscopy","relevant_ids":[]}
+  ]
+}
